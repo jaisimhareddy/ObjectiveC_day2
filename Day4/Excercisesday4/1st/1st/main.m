@@ -14,11 +14,12 @@ int main(int argc, const char * argv[])
     @autoreleasepool {
         
         int n;
-        int fact=1;
-        for(n=1;n <=10 ;++n)
-            fact *= n;
-        NSLog(@"%i", fact);
-            
+        int i=1;
+        for(n=1;n <=10 ;++n){
+            i *= n;
+        NSLog(@"%i", i);
+        }
+        
         
     }
     return 0;
