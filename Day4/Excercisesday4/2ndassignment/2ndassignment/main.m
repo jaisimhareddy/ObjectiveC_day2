@@ -12,8 +12,16 @@ int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
-        int n, n2, i;
-        for()
+        int n, n2,i ;
+        NSLog(@"n     n2");
+        
+        for(i=1;i <=10; ++i) {
+            n = i;
+            n2=i;
+            
+            NSLog(@"%i      %i", n, n2);
+        }
+        
         
     }
     return 0;
