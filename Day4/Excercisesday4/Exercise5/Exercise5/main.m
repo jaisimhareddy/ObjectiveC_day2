@@ -13,10 +13,22 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         
-        // insert code here...
-        NSLog(@"Hello, World!");
+        int n,number,s=0;
+        NSLog(@"Enter digits:");
+        scanf("%i", &n);
         
-    }
+        while (n != 0)
+            {
+                number=n%10;
+                s=s+number;
+                n=n/10;
+                
+            }
+        NSLog(@"Sum of digits: %i\n",s);
+        
+        
+        
+            }
     return 0;
 }
 
