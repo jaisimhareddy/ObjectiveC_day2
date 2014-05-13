@@ -12,11 +12,17 @@ int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
-        
-        // insert code here...
-        NSLog(@"Hello, World!");
-        
-    }
+        int p,d;
+        BOOL isPrime;
+        for (p=2; p<=50; ++p) {
+            isPrime=1;
+            for (d=2; d<p; ++d)
+                if (p % d ==0)
+                    isPrime=NO;
+            if (isPrime == YES)
+                NSLog(@"%i", p);
+            }
+  }
     return 0;
 }
 
