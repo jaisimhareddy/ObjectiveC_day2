@@ -12,11 +12,17 @@ int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
+        int n,triangularnumber=0;
         
-        // insert code here...
-        NSLog(@"Hello, World!");
+        while (n<=200)
+        {
+            triangularnumber +=n;
+            NSLog(@"the 200th triangular number is %i", triangularnumber);
+           
+            n=n+1;
+        }
         
-    }
+        }
     return 0;
 }
 
