@@ -12,10 +12,16 @@ int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
+        int i=5,j,n,triangularnumber;
         
-        // insert code here...
-        NSLog(@"Hello, World!");
-        
+        for (j=1;j<=10;j++)
+        {
+            
+        n=i*j;
+      
+        triangularnumber=n*(n+1)/2;
+        NSLog(@"%i",triangularnumber);
+        }
     }
     return 0;
 }
