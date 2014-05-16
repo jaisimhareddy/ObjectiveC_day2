@@ -7,12 +7,21 @@
 //
 
 #import <Foundation/Foundation.h>
+int getMax(int a, int b)
+{
+    int max_value= (a>b) ? a:b;
 
-int main(int argc, const char * argv[])
+    return max_value;
+}
+
+    int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
-        int p, d; BOOL isPrime;
+        int max=getMax(3,4);
+        
+        int p, d;
+        BOOL isPrime;
         for ( p = 2; p <= 50; ++p )
         {
             isPrime = YES;
