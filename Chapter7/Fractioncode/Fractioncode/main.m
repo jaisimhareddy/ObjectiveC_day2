@@ -1,6 +1,6 @@
 //
 //  main.m
-//  2ndcode
+//  Fractioncode
 //
 //  Created by user2 on 2014-05-16.
 //  Copyright (c) 2014 Lambton College. All rights reserved.
@@ -13,7 +13,7 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         
-        // insert code her
+        // insert code here...
         NSLog(@"Hello, World!");
         
     }

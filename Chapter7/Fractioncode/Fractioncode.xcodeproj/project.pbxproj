@@ -7,83 +7,90 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F1CC98C1926892800B58DF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F1CC98B1926892800B58DF3 /* Foundation.framework */; };
-		0F1CC98F1926892800B58DF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1CC98E1926892800B58DF3 /* main.m */; };
-		0F1CC9931926892800B58DF3 /* _ndcode.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0F1CC9921926892800B58DF3 /* _ndcode.1 */; };
+		0F1CC9A619268F1C00B58DF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F1CC9A519268F1C00B58DF3 /* Foundation.framework */; };
+		0F1CC9A919268F1C00B58DF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1CC9A819268F1C00B58DF3 /* main.m */; };
+		0F1CC9AD19268F1C00B58DF3 /* Fractioncode.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0F1CC9AC19268F1C00B58DF3 /* Fractioncode.1 */; };
+		0F1CC9B619268F8600B58DF3 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1CC9B419268F8600B58DF3 /* Fraction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		0F1CC9861926892800B58DF3 /* CopyFiles */ = {
+		0F1CC9A019268F1C00B58DF3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				0F1CC9931926892800B58DF3 /* _ndcode.1 in CopyFiles */,
+				0F1CC9AD19268F1C00B58DF3 /* Fractioncode.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0F1CC9881926892800B58DF3 /* 2ndcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 2ndcode; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F1CC98B1926892800B58DF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		0F1CC98E1926892800B58DF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0F1CC9911926892800B58DF3 /* 2ndcode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2ndcode-Prefix.pch"; sourceTree = "<group>"; };
-		0F1CC9921926892800B58DF3 /* _ndcode.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _ndcode.1; sourceTree = "<group>"; };
+		0F1CC9A219268F1C00B58DF3 /* Fractioncode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Fractioncode; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F1CC9A519268F1C00B58DF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F1CC9A819268F1C00B58DF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F1CC9AB19268F1C00B58DF3 /* Fractioncode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fractioncode-Prefix.pch"; sourceTree = "<group>"; };
+		0F1CC9AC19268F1C00B58DF3 /* Fractioncode.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Fractioncode.1; sourceTree = "<group>"; };
+		0F1CC9B319268F8600B58DF3 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		0F1CC9B419268F8600B58DF3 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		0F1CC9B519268F8600B58DF3 /* Fraction.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Fraction.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0F1CC9851926892800B58DF3 /* Frameworks */ = {
+		0F1CC99F19268F1C00B58DF3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F1CC98C1926892800B58DF3 /* Foundation.framework in Frameworks */,
+				0F1CC9A619268F1C00B58DF3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F1CC97F1926892800B58DF3 = {
+		0F1CC99919268F1C00B58DF3 = {
 			isa = PBXGroup;
 			children = (
-				0F1CC98D1926892800B58DF3 /* 2ndcode */,
-				0F1CC98A1926892800B58DF3 /* Frameworks */,
-				0F1CC9891926892800B58DF3 /* Products */,
+				0F1CC9A719268F1C00B58DF3 /* Fractioncode */,
+				0F1CC9A419268F1C00B58DF3 /* Frameworks */,
+				0F1CC9A319268F1C00B58DF3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0F1CC9891926892800B58DF3 /* Products */ = {
+		0F1CC9A319268F1C00B58DF3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0F1CC9881926892800B58DF3 /* 2ndcode */,
+				0F1CC9A219268F1C00B58DF3 /* Fractioncode */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0F1CC98A1926892800B58DF3 /* Frameworks */ = {
+		0F1CC9A419268F1C00B58DF3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0F1CC98B1926892800B58DF3 /* Foundation.framework */,
+				0F1CC9A519268F1C00B58DF3 /* Foundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0F1CC98D1926892800B58DF3 /* 2ndcode */ = {
+		0F1CC9A719268F1C00B58DF3 /* Fractioncode */ = {
 			isa = PBXGroup;
 			children = (
-				0F1CC98E1926892800B58DF3 /* main.m */,
-				0F1CC9921926892800B58DF3 /* _ndcode.1 */,
-				0F1CC9901926892800B58DF3 /* Supporting Files */,
+				0F1CC9A819268F1C00B58DF3 /* main.m */,
+				0F1CC9B319268F8600B58DF3 /* Fraction.h */,
+				0F1CC9B419268F8600B58DF3 /* Fraction.m */,
+				0F1CC9B519268F8600B58DF3 /* Fraction.xib */,
+				0F1CC9AC19268F1C00B58DF3 /* Fractioncode.1 */,
+				0F1CC9AA19268F1C00B58DF3 /* Supporting Files */,
 			);
-			path = 2ndcode;
+			path = Fractioncode;
 			sourceTree = "<group>";
 		};
-		0F1CC9901926892800B58DF3 /* Supporting Files */ = {
+		0F1CC9AA19268F1C00B58DF3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0F1CC9911926892800B58DF3 /* 2ndcode-Prefix.pch */,
+				0F1CC9AB19268F1C00B58DF3 /* Fractioncode-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -91,62 +98,63 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0F1CC9871926892800B58DF3 /* 2ndcode */ = {
+		0F1CC9A119268F1C00B58DF3 /* Fractioncode */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0F1CC9961926892800B58DF3 /* Build configuration list for PBXNativeTarget "2ndcode" */;
+			buildConfigurationList = 0F1CC9B019268F1C00B58DF3 /* Build configuration list for PBXNativeTarget "Fractioncode" */;
 			buildPhases = (
-				0F1CC9841926892800B58DF3 /* Sources */,
-				0F1CC9851926892800B58DF3 /* Frameworks */,
-				0F1CC9861926892800B58DF3 /* CopyFiles */,
+				0F1CC99E19268F1C00B58DF3 /* Sources */,
+				0F1CC99F19268F1C00B58DF3 /* Frameworks */,
+				0F1CC9A019268F1C00B58DF3 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = 2ndcode;
-			productName = 2ndcode;
-			productReference = 0F1CC9881926892800B58DF3 /* 2ndcode */;
+			name = Fractioncode;
+			productName = Fractioncode;
+			productReference = 0F1CC9A219268F1C00B58DF3 /* Fractioncode */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0F1CC9801926892800B58DF3 /* Project object */ = {
+		0F1CC99A19268F1C00B58DF3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Lambton College";
 			};
-			buildConfigurationList = 0F1CC9831926892800B58DF3 /* Build configuration list for PBXProject "2ndcode" */;
+			buildConfigurationList = 0F1CC99D19268F1C00B58DF3 /* Build configuration list for PBXProject "Fractioncode" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 0F1CC97F1926892800B58DF3;
-			productRefGroup = 0F1CC9891926892800B58DF3 /* Products */;
+			mainGroup = 0F1CC99919268F1C00B58DF3;
+			productRefGroup = 0F1CC9A319268F1C00B58DF3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0F1CC9871926892800B58DF3 /* 2ndcode */,
+				0F1CC9A119268F1C00B58DF3 /* Fractioncode */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0F1CC9841926892800B58DF3 /* Sources */ = {
+		0F1CC99E19268F1C00B58DF3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F1CC98F1926892800B58DF3 /* main.m in Sources */,
+				0F1CC9A919268F1C00B58DF3 /* main.m in Sources */,
+				0F1CC9B619268F8600B58DF3 /* Fraction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0F1CC9941926892800B58DF3 /* Debug */ = {
+		0F1CC9AE19268F1C00B58DF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -184,7 +192,7 @@
 			};
 			name = Debug;
 		};
-		0F1CC9951926892800B58DF3 /* Release */ = {
+		0F1CC9AF19268F1C00B58DF3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -216,20 +224,20 @@
 			};
 			name = Release;
 		};
-		0F1CC9971926892800B58DF3 /* Debug */ = {
+		0F1CC9B119268F1C00B58DF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "2ndcode/2ndcode-Prefix.pch";
+				GCC_PREFIX_HEADER = "Fractioncode/Fractioncode-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		0F1CC9981926892800B58DF3 /* Release */ = {
+		0F1CC9B219268F1C00B58DF3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "2ndcode/2ndcode-Prefix.pch";
+				GCC_PREFIX_HEADER = "Fractioncode/Fractioncode-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -237,24 +245,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0F1CC9831926892800B58DF3 /* Build configuration list for PBXProject "2ndcode" */ = {
+		0F1CC99D19268F1C00B58DF3 /* Build configuration list for PBXProject "Fractioncode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0F1CC9941926892800B58DF3 /* Debug */,
-				0F1CC9951926892800B58DF3 /* Release */,
+				0F1CC9AE19268F1C00B58DF3 /* Debug */,
+				0F1CC9AF19268F1C00B58DF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0F1CC9961926892800B58DF3 /* Build configuration list for PBXNativeTarget "2ndcode" */ = {
+		0F1CC9B019268F1C00B58DF3 /* Build configuration list for PBXNativeTarget "Fractioncode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0F1CC9971926892800B58DF3 /* Debug */,
-				0F1CC9981926892800B58DF3 /* Release */,
+				0F1CC9B119268F1C00B58DF3 /* Debug */,
+				0F1CC9B219268F1C00B58DF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0F1CC9801926892800B58DF3 /* Project object */;
+	rootObject = 0F1CC99A19268F1C00B58DF3 /* Project object */;
 }

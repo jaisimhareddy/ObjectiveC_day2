@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0F1CC9871926892800B58DF3"
-               BuildableName = "2ndcode"
-               BlueprintName = "2ndcode"
-               ReferencedContainer = "container:2ndcode.xcodeproj">
+               BlueprintIdentifier = "0F1CC9A119268F1C00B58DF3"
+               BuildableName = "Fractioncode"
+               BlueprintName = "Fractioncode"
+               ReferencedContainer = "container:Fractioncode.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0F1CC9871926892800B58DF3"
-            BuildableName = "2ndcode"
-            BlueprintName = "2ndcode"
-            ReferencedContainer = "container:2ndcode.xcodeproj">
+            BlueprintIdentifier = "0F1CC9A119268F1C00B58DF3"
+            BuildableName = "Fractioncode"
+            BlueprintName = "Fractioncode"
+            ReferencedContainer = "container:Fractioncode.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0F1CC9871926892800B58DF3"
-            BuildableName = "2ndcode"
-            BlueprintName = "2ndcode"
-            ReferencedContainer = "container:2ndcode.xcodeproj">
+            BlueprintIdentifier = "0F1CC9A119268F1C00B58DF3"
+            BuildableName = "Fractioncode"
+            BlueprintName = "Fractioncode"
+            ReferencedContainer = "container:Fractioncode.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0F1CC9871926892800B58DF3"
-            BuildableName = "2ndcode"
-            BlueprintName = "2ndcode"
-            ReferencedContainer = "container:2ndcode.xcodeproj">
+            BlueprintIdentifier = "0F1CC9A119268F1C00B58DF3"
+            BuildableName = "Fractioncode"
+            BlueprintName = "Fractioncode"
+            ReferencedContainer = "container:Fractioncode.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

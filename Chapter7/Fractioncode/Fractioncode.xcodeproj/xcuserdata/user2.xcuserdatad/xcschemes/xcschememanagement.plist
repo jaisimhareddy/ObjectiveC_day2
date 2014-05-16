@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>2ndcode.xcscheme</key>
+		<key>Fractioncode.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0F1CC9871926892800B58DF3</key>
+		<key>0F1CC9A119268F1C00B58DF3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
