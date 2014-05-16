@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>77D3D965-FD47-4988-8F26-4C9EBE8F2AE2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Day8code</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>708DDC5C-E5E2-4A97-B098-BA69610301B1</key>
+		<string>https://github.com/jaisimhareddy/ObjectiveC_day2.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Day8/Day8code/Day8code.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>708DDC5C-E5E2-4A97-B098-BA69610301B1</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jaisimhareddy/ObjectiveC_day2.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>708DDC5C-E5E2-4A97-B098-BA69610301B1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>708DDC5C-E5E2-4A97-B098-BA69610301B1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ObjectiveC</string>
+		</dict>
+	</array>
+</dict>
+</plist>
